@@ -1,0 +1,144 @@
+body       {
+	margin:0;
+	padding:0;
+}
+/* Стили для заголовка */
+.site-title {
+	font-size: 3rem;
+	text-align: center;
+	margin: 0;
+	padding: 1rem;
+}
+
+/* Стили для навигации */
+.site-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	font-size:16px;
+}
+
+.nav-list {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-item {
+	margin-right: 1rem;
+}
+
+.nav-link {
+	display: block;
+	padding: 0.5rem 1rem;
+	background-color: #f1f1f1;
+	color: #333;
+	text-decoration: none;
+	border-radius: 0.5rem;
+	transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.nav-link:hover {
+	color: #fff;
+	box-shadow: 0 0 40px 40px #333 inset;
+}
+
+/* Стили для главного блока */
+a {
+  text-decoration: none;
+}
+
+.hero {
+	background-image: url(./img/fon.png);
+	background-size: cover;
+	padding: 5rem;
+	text-align: center;
+	color: #fff;
+}
+
+.hero-title {
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+}
+
+.hero-description {
+	font-size: 1.5rem;
+	margin-bottom: 3rem;
+}
+
+.button {
+	display: inline-block;
+	padding: 1rem 2rem;
+	background-color: #f1f1f1;
+	color: #333;
+	text-decoration: none;
+	border-radius: 0.5rem;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.button:hover {
+   box-shadow: 0 0 40px 40px #808080 inset;
+}
+
+/* Стили для блока последних новостей */
+
+.latest-news {
+	padding: 3rem;
+	background-color: #f1f1f1;
+}
+
+.section-title {
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+.news-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.news-item {
+	margin-bottom: 1rem;
+	font-size:17px;
+}
+
+.news-link {
+	color: #333;
+	text-decoration: none;
+}
+
+.news-link:hover {
+	color: #000;
+}
+
+/* Стили для блока "Как начать играть" */
+.how-to-play {
+	padding: 3rem;
+}
+
+.play-list {
+	list-style-position: inside;
+}
+
+.play-item {
+	margin-bottom: 1rem;
+	font-size:17px;
+}
+
+/* Стили для подвала */
+.site-footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	font-size:18px;
+}
+
+.site-info {
+	margin: 0;
+	padding: 0;
+} 

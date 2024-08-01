@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Новости | Сервер по Майнкрафту</title>
+	<style>
+		.site-header {
+		background-color: #212121;
+		color: #FFFFFF;
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.site-title {
+		font-size: 30px;
+		margin: 0;
+	}
+	
+	.nav-list {
+		list-style: none;
+		display: flex;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.nav-item {
+		margin-left: 20px;
+	}
+	
+	.nav-link {
+		color: #FFFFFF;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 20px;
+		transition: all 0.2s ease-in-out;
+	}
+	
+	.nav-link:hover {
+		color: #BDBDBD;
+	}
+	
+	.site-main {
+		padding: 50px;
+	}
+	
+	.section-title {
+		font-size: 28px;
+		margin: 0 0 30px 0;
+	}
+	
+	.news-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.news-item {
+		margin-bottom: 40px;
+		padding: 20px;
+		background-color: #FFFFFF;
+		box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+		border-radius: 5px;
+	}
+	
+	.news-title {
+		font-size: 24px;
+		margin: 0 0 10px 0;
+	}
+	
+	.news-date {
+		font-size: 14px;
+		margin: 0 0 20px 0;
+		color: #BDBDBD;
+	}
+	
+	.news-description {
+		font-size: 18px;
+		line-height: 1.5;
+		color: #707070;
+	}
+	
+	.site-footer {
+		background-color: #212121;
+		color: #FFFFFF;
+		padding: 20px;
+		text-align: center;
+	}
+	
+	.site-info {
+		font-size: 14px;
+		margin: 0;
+	}
+	
+	@media screen and (max-width: 768px) {
+		.site-header {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		
+		.site-title {
+			margin-bottom: 20px;
+		}
+		
+		.nav-list {
+			margin-top: 20px;
+		}
+		
+		.nav-item {
+			margin-left: 0;
+			margin-right: 20px;
+		}
+		
+		.site-main {
+			padding: 30px;
+		}
+		
+		.news-item {
+			margin-bottom: 30px;
+			padding: 10px;
+		}
+		
+		.news-title {
+			font-size: 20px;
+			margin: 0 0 5px 0;
+		}
+	</style>
+</head>
+<body>
+	<header class="site-header">
+		<h1 class="site-title">Сервер по Майнкрафту</h1>
+		<nav class="site-nav">
+			<ul class="nav-list">
+				<li class="nav-item"><a href="./index.html" class="nav-link">Главная</a></li>
+				<li class="nav-item"><a href="./about.html" class="nav-link">О сервере</a></li>
+				<li class="nav-item"><a href="./news.html" class="nav-link">Новости</a></li>
+				<li class="nav-item"><a href="./contacs.html" class="nav-link">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="site-main">
+		<section class="news">
+			<h2 class="section-title">Новости</h2>
+			<ul class="news-list">
+				<li class="news-item">
+					<h3 class="news-title">Запуск сервера</h3>
+					<p class="news-date">12 апреля 2023 г.</p>
+					<p class="news-description">Мы рады сообщить о запуске нашего сервера по Майнкрафту! На сервере доступны различные режимы игры, от выживания и креатива до PVP-битв и мини-игр. Присоединяйтесь и наслаждайтесь игрой вместе с друзьями и сослуживцами!</p>
+				</li>
+				<li class="news-item">
+					<h3 class="news-title">Обновление версии Minecraft</h3>
+					<p class="news-date">20 апреля 2023 г.</p>
+					<p class="news-description">Мы обновили версию Minecraft на нашем сервере! Теперь вы можете наслаждаться новыми возможностями и функциями, которые появились в последней версии игры. Приятной игры!</p>
+				</li>
+				<li class="news-item">
+					<h3 class="news-title">Добавление новых мини-игр</h3>
+					<p class="news-date">30 апреля 2023 г.</p>
+					<p class="news-description">Мы добавили на сервер несколько новых мини-игр, которые точно понравятся всем игрокам! Проверьте их уже сейчас и убедитесь в их увлекательности и разнообразии.</p>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer class="site-footer">
+		<p class="site-info">&copy; 2023 Сервер по Майнкрафту. Все права защищены.</p>
+	</footer>
+</body>
+</html>
