@@ -51,7 +51,7 @@ a {
 }
 
 .hero {
-	background-image: url(./img/fon.png);
+	background-image: url(fon.png);
 	background-size: cover;
 	padding: 5rem;
 	text-align: center;
